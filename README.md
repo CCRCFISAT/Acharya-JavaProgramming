@@ -8,26 +8,31 @@ This repo contains contributions to project Acharya, an Open Smart Education Ini
 
 You can submit Jupyter notebooks that illustrates the working of java programs. Please check the topics to be covered. However, you do not have to restrict the submissions to the list of topics to be covered. Make sure to include figures and videos in your notebook.
 
-For those who are confused as to how jupyter notebooks are possible for c and c++, please refer to jupyter-IJava/scijava, which is a jupyter kernel for c/c++.
+For those who are confused as to how jupyter notebooks are possible for java, please refer to IJava, which is a jupyter kernel for java.
 
-If you have miniconda installed, do the following:
+So now let us install IJava
+
+Open your terminal and do the following
 ```
-conda create ijava
-conda activate ijava
+git clone https://github.com/SpencerPark/IJava.git
+cd IJava/
 ```
 
-After this, you'd be with a totally new env just for java notebooks called ijava. To install the required kernel, in this new env:
+What you have done above is that you cloned a repository and changed your directory to the cloned directory, after doing the above steps, do the following
+```
+gradlew installKernel
+```
+Now you should have got a `BUILD SUCCESSFUL` message, if you got `BUILD FAILED` message with Could not get jupyter data-dir as the reason then [click here](https://github.com/SpencerPark/IJava/issues/89) for the solution.
 
-To install this package with conda run one of the following:
+Now to checkout whether everything is working do the following.
 ```
-conda install -c conda-forge scijava-jupyter-kernel
-conda install -c conda-forge/label/cf201901 scijava-jupyter-kernel
-conda install -c conda-forge/label/cf202003 scijava-jupyter-kernel
+jupyter kernelspec list
 ```
+you should see java listed in the list, if it is missing you have made some mistake please redo the steps and you should see java listed over there.
 
 Now you have a jupyter notebook kernel that can handle java code.
 
-https://anaconda.org/conda-forge/scijava-jupyter-kernel
+Want to know more about IJava ? [click here](https://github.com/SpencerPark/IJava#install-pre-built-binary)
 
 
 
