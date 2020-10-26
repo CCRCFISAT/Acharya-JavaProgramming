@@ -12,23 +12,26 @@ For those who are confused as to how jupyter notebooks are possible for java, pl
 
 So now let us install IJava
 
-Open your terminal and do the following
+Open your terminal and do the following:
 ```
 git clone https://github.com/SpencerPark/IJava.git
 cd IJava/
 ```
 
-What you have done above is that you cloned a repository and changed your directory to the cloned directory, after doing the above steps, do the following
+What you have done above is that you cloned a repository and changed your directory to the cloned directory, after doing the above steps, do the following:
 ```
 gradlew installKernel
 ```
+
 Now you should have got a `BUILD SUCCESSFUL` message, if you got `BUILD FAILED` message with Could not get jupyter data-dir as the reason then [click here](https://github.com/SpencerPark/IJava/issues/89) for the solution.
 
-Now to checkout whether everything is working do the following.
+
+Now to checkout whether everything is working do the following:
 ```
 jupyter kernelspec list
 ```
 you should see java listed in the list, if it is missing you have made some mistake please redo the steps and you should see java listed over there.
+
 
 Now you have a jupyter notebook kernel that can handle java code.
 
