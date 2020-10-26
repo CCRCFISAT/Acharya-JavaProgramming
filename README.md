@@ -33,19 +33,10 @@ https://anaconda.org/conda-forge/scijava-jupyter-kernel
 
 # Topics to be covered
 
- Program Basics
-Basic structure of C program: Character set, Tokens, Identifiers in C, Variables and Data Types , Constants, Console IO Operations, printf and scanf
+Java Overview: 
+Java virtual machine, data types, operators, control statements, Introduction to Java programming.
 
-Operators and Expressions: Expressions and Arithmetic Operators, Relational and Logical Operators,Conditional operator, size of operator, Assignment operators and Bitwise Operators. Operators Precedence
+Classes fundamentals, objects, methods, constructors, parameter passing, overloading, access control keywords.
 
-Control Flow Statements: If Statement, Switch Statement, Unconditional Branching using goto statement, While Loop, Do While Loop, For Loop, Break and Continue statements.(Simple programs covering control flow)
-
- Arrays and strings
-Arrays Declaration and Initialization, 1-Dimensional Array, 2-Dimensional Array String processing: In built String handling functions (strlen, strcpy, strcat and strcmp, puts, gets) Linear search program, bubble sort program, simple programs covering arrays and strings
-
- Working with functions
-Introduction to modular programming, writing functions, formal parameters, actual parameters Pass by Value, Recursion, Arrays as Function Parameters structure, union, Storage Classes, Scope and life time of variables, simple programs using functions
-
-Pointers and Files
-Basics of Pointer: declaring pointers, accessing data though pointers, NULL pointer,array access using pointers, pass by reference effect File Operations: open, close, read, write, append Sequential access and random access to files: In built file handlingfunctions (rewind() ,fseek(), ftell(),feof(), fread(), fwrite()), simple programs covering pointers and files. 
+Inheritance basics, method overriding, abstract classes, interface. Defining and importing packages. Exception handling fundamentals,multiple catch and nested try statements.
 
